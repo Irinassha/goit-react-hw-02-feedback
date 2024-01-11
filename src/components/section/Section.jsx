@@ -5,10 +5,7 @@ import React from 'react';
 import s from './Section.module.css';
 
 export class Section extends React.Component {
-  static defaultProps = {
-    title: '',
-  };
-
+  
   state = {
     good: 0,
     neutral: 0,
