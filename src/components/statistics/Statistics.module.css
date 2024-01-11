@@ -1,0 +1,15 @@
+
+.statisticsText {
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 500;
+}
+
+.statisticsTextGreen{
+color: rgb(4, 130, 4);
+
+} 
+.statisticsTextRed{
+color: red;
+font-weight: 600;
+}
