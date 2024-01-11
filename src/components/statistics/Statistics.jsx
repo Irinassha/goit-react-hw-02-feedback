@@ -19,9 +19,9 @@ export const Statistics = ({
       <p className={s.statisticsText}>
         Positive feedback:{' '}
         <span
-          className={clsx(
-            positivePercentage > 50 ? s.statisticsTextGreen : s.statisticsText,
-            positivePercentage < 50 ? s.statisticsTextRed : s.statisticsText
+          className={clsx(s.statisticsText,
+            positivePercentage > 50 && s.statisticsTextGreen,
+            positivePercentage < 50 && s.statisticsTextRed
           )}
         >
           {Math.round(positivePercentage)}%

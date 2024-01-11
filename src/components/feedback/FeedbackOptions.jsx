@@ -12,8 +12,9 @@ export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
               type="button"
               name={item}
               className={clsx(
-                item === 'good' ? s.feedbackBtnGreen : s.feedbackBtn,
-                item === 'bad' ? s.feedbackBtnRed : s.feedbackBtn
+                s.feedbackBtn,
+                item === 'good' && s.feedbackBtnGreen,
+                item === 'bad' && s.feedbackBtnRed
               )}
               onClick={() => onLeaveFeedback(item)}
             >
