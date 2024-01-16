@@ -11,7 +11,6 @@ export const Statistics = ({
 }) => {
   return (
     <div>
-      <h2>Statistics</h2>
       <p className={s.statisticsText}>Good: {good}</p>
       <p className={s.statisticsText}>Neutral: {neutral}</p>
       <p className={s.statisticsText}>Bad: {bad}</p>
